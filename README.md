@@ -2,6 +2,7 @@
 A small-ish and simple box to measure
 - eCO2 with a CCS811
 - Temperature and Humidity with a DHT22
+
 using a Wemos D1 mini (or clone) with visualization on a
 - 0.96" I2C OLED
 - NeoPixel compatible RGB LED ring (WS2812B)
@@ -26,3 +27,5 @@ After the "burn-in" phase, the values are considered accurate after a "run-in" t
 The PCB has been designed with KiCad and uses the corresponding [libraries](https://kicad.org/libraries/) which are available under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Additionally, a [footprint](https://github.com/rubienr/wemos-d1-mini-kicad) made by [rubienr](https://github.com/rubienr) is used.
 
 The PCB is designed to be screwed into a case available at [aliexpress](https://de.aliexpress.com/item/4000068796385.html?spm=a2g0s.9042311.0.0.52614c4dDeY8Wv).
+
+![PCB](pcb/co2box.png "PCB rendering")
