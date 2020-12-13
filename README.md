@@ -13,7 +13,7 @@ The thresholds are set according to [REHVA's recommendations for schools](https:
 For full sensor accuracy, according to the [datasheet](https://www.sciosense.com/wp-content/uploads/2020/01/CCS811-Datasheet.pdf), the device first needs a "burn-in" phase of 48 operating hours. 
 
 ## Run-In
-After the "burn-in" phase, the values are considered accurate after a "run-in" time of 20 minutes after power on.
+After the "burn-in" phase, the values are considered accurate after a "run-in" time of 20 minutes after power on. Make sure you expose the sensor to clean air throughout the run-in or shortly afterwards to correctly set the baseline (low CO2) for correct sensor readings.
 
 ## Flashing
 - Install the newest [ESP8266 support](https://www.heise.de/ct/artikel/Arduino-IDE-installieren-und-fit-machen-fuer-ESP8266-und-ESP32-4130814.html)
