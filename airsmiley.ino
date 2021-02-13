@@ -179,7 +179,7 @@ void displayData(float temp, float hum, uint32_t eco2, uint32_t tvoc) {
   display.display();
 
   Serial.print(F("\nHTL Weiz "));
-  Serial.println(F("CO2box"));
+  Serial.println(F("Air Smiley"));
   Serial.print(F("T(°C): "));
   Serial.println(temp, 1);
   Serial.print(F("H(%): "));
