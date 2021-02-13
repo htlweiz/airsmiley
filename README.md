@@ -28,4 +28,4 @@ The PCB has been designed with KiCad and uses the corresponding [libraries](http
 
 The PCB is designed to be screwed into a case available at [aliexpress](https://de.aliexpress.com/item/4000068796385.html?spm=a2g0s.9042311.0.0.52614c4dDeY8Wv).
 
-![PCB](pcb/co2box.png "PCB rendering")
+![PCB](pcb/airsmiley.png "PCB rendering")
