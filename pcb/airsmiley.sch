@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "CO2box"
-Date "2020-11-27"
-Rev "v0"
-Comp "Christoph B. Wurzinger"
-Comment1 ""
+Title "Air Smiley"
+Date "2021-02-13"
+Rev "v1"
+Comp "HTL Weiz"
+Comment1 "Christoph B. Wurzinger"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -179,7 +179,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 2300 3600 2300
 Wire Wire Line
-	2600 2300 2600 3150
+	2600 2300 2600 2800
 Wire Wire Line
 	2600 3150 3000 3150
 Text Notes 3150 1950 0    50   ~ 0
@@ -348,4 +348,31 @@ NoConn ~ 3800 3850
 NoConn ~ 3800 3950
 NoConn ~ 3800 3450
 NoConn ~ 3800 3050
+$Comp
+L Connector_Generic:Conn_01x02 J_RST_1
+U 1 1 6027AC57
+P 2200 2900
+F 0 "J_RST_1" H 2280 2942 50  0000 L CNN
+F 1 "Conn_01x02" H 2280 2851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2200 2900 50  0001 C CNN
+F 3 "~" H 2200 2900 50  0001 C CNN
+	1    2200 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 6027CA7F
+P 2400 2900
+F 0 "#PWR01" H 2400 2650 50  0001 C CNN
+F 1 "GND" H 2405 2727 50  0000 C CNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2800 2600 2800
+Connection ~ 2600 2800
+Wire Wire Line
+	2600 2800 2600 3150
 $EndSCHEMATC

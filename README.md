@@ -1,10 +1,10 @@
-# eCO2 measurement box
+# Air Smiley: eCO2 measurement box
 A small-ish and simple box to measure
-- eCO2 with a CCS811
-- Temperature and Humidity with a DHT22
+- eCO2 with a CCS811 sensor
+- Temperature and Humidity with a DHT22 sensor
 
 using a Wemos D1 mini (or clone) with visualization on a
-- 0.96" I2C OLED
+- 0.96" I2C OLED (SSD1306 based)
 - NeoPixel compatible RGB LED ring (WS2812B)
 
 The thresholds are set according to [REHVA's recommendations for schools](https://www.rehva.eu/fileadmin/user_upload/REHVA_COVID-19_guidance_document_School_guidance_25112020.pdf).

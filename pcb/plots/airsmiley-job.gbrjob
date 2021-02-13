@@ -5,17 +5,17 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.8"
+      "Version":     "5.1.9"
     },
-    "CreationDate":  "2020-11-27T01:12:46+01:00"
+    "CreationDate":  "2021-02-13T11:33:13+01:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "co2box",
-      "GUID": "636f3262-6f78-42e6-9b69-6361645f7063",
-      "Revision": "v0"
+      "Name": "airsmiley",
+      "GUID": "61697273-6d69-46c6-9579-2e6b69636164",
+      "Revision": "v1"
     },
     "Size":
     {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "co2box-F_Cu.gbr",
+      "Path":  "airsmiley-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "co2box-B_Cu.gbr",
+      "Path":  "airsmiley-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "co2box-F_Paste.gbr",
+      "Path":  "airsmiley-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "co2box-B_Paste.gbr",
+      "Path":  "airsmiley-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "co2box-F_SilkS.gbr",
+      "Path":  "airsmiley-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "co2box-B_SilkS.gbr",
+      "Path":  "airsmiley-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "co2box-F_Mask.gbr",
+      "Path":  "airsmiley-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "co2box-B_Mask.gbr",
+      "Path":  "airsmiley-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "co2box-Edge_Cuts.gbr",
+      "Path":  "airsmiley-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
