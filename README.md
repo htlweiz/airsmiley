@@ -9,6 +9,11 @@ using a Wemos D1 mini (or clone) with visualization on a
 
 The thresholds are set according to [REHVA's recommendations for schools](https://www.rehva.eu/fileadmin/user_upload/REHVA_COVID-19_guidance_document_School_guidance_25112020.pdf).
 
+
+## User Manual
+A (german) user manual is available [here](AIR%20SMILEY.pdf).
+
+
 ## Burn-In
 For full sensor accuracy, according to the [datasheet](https://www.sciosense.com/wp-content/uploads/2020/01/CCS811-Datasheet.pdf), the device first needs a "burn-in" phase of 48 operating hours. 
 
@@ -29,3 +34,4 @@ The PCB has been designed with KiCad and uses the corresponding [libraries](http
 The PCB is designed to be screwed into a case available at [aliexpress](https://de.aliexpress.com/item/4000068796385.html?spm=a2g0s.9042311.0.0.52614c4dDeY8Wv).
 
 ![PCB](pcb/airsmiley.png "PCB rendering")
+1
